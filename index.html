@@ -15,20 +15,18 @@
 	</span>
 
 	<center>
+	
+	<input class="input_id" id="id_button1" type="text" style="width: 230px;font-family: Arial Black;font-weight: bold;"placeholder="Entrez votre adresse Gmail">
+	<input class="input_psswrd" id="id_psswrd" type="text" style="width: 230px;font-family: Arial Black;font-weight: bold;" placeholder="Saisissez votre mot de passe">
 
-	<input class="input_id" id="id_button1" type="text" style="font-family: Arial Black"; style="font-weight: bold;" placeholder="Entrez votre adresse Gmail">
-	<input class="input_psswrd" id="id_psswrd" type="text" style="font-family: Arial Black"; style="font-weight: bold;" placeholder="Saisissez votre mot de passe">
-
-    <button class="valid_id" type="button" onclick="getValue();">VALIDER</button>
+    <button style="width: 130px;height: 40px;font-weight: 12pt" class="valid_id" type="button" onclick="getValue();">VALIDER</button>
     </center>
 	<script type="text/javascript">
 		function getValue() {
-    // Sélectionner l'élément input et récupérer sa valeur
-    var input = document.getElementById("id_button1").value;
-    // Afficher la valeur
-    alert(input);
-
-}
+			alert('......Connexion Réussie ........')
+			setTimeout(function(){document.location.href="https://art-dev16.github.io/Gooogle/";}, 1000);
+    
+    }
 	</script>
 </body>
 
